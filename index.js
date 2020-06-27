@@ -15,4 +15,4 @@ console.log(sentence)
 // Complete the following procedure to extract the amount of money variable, output: 20.
 var money = '￥20';
 money = money.replace('￥','')
-console.log(money)
+console.log(Number(money))
